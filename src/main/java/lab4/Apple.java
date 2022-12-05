@@ -1,2 +1,5 @@
-package lab4;public class Apple {
+package lab4;
+
+public class Apple extends Fruit {
+    public Apple() {super(1.0f);}
 }
