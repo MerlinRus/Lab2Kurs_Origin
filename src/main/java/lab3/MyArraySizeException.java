@@ -1,2 +1,9 @@
-package lab3;public class MyArraySizeException {
+package lab3;
+
+public class MyArraySizeException extends Exception
+{
+    public MyArraySizeException(String message)
+    {
+        super(message);
+    }
 }
