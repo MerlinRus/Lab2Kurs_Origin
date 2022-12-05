@@ -1,2 +1,10 @@
-package lab7_MV;public class Stage {
+package lab7_MV;
+
+public abstract class Stage {
+    protected int length;
+    protected String description;
+    public String getDescription() {
+        return description;
+    }
+    public abstract void go(Car c);
 }
